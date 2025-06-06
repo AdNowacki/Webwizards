@@ -1,0 +1,18 @@
+.btn {
+  --btn-color-primary: #007bff;
+  --btn-color-secondary: #6c757d;
+  --btn-color-inline: #28a745;
+
+  &--primary {
+    background-color: var(--color-primary);
+    color: white;
+  }
+  &--secondary {
+    background-color: var(--color-secondary);
+    color: white;
+  }
+  &--inline {
+    background-color: var(--btn-color-inline);
+    color: white;
+  }
+}
