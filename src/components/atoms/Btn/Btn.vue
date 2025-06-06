@@ -5,7 +5,7 @@
 <script setup>
 import { computed } from 'vue'
 
-defineProps({
+const props = defineProps({
   label: String,
   variant: String
 });

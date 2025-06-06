@@ -1,18 +1,28 @@
 .btn {
   --btn-color-primary: #007bff;
   --btn-color-secondary: #6c757d;
-  --btn-color-inline: #28a745;
+  --btn-color-inline: #69a9da;
+
+  --btn-bg-primary: #69a9da;
+  --btn-bg-secondary: #ffffff;
+  --btn-bg-inline: transparent;
+
+  padding: 0.5rem;;
+  font-size: 1.2rem;
+
 
   &--primary {
-    background-color: var(--color-primary);
-    color: white;
+    color: var(--color-primary);
+    background-color: var(--btn-bg-primary);
   }
+
   &--secondary {
-    background-color: var(--color-secondary);
-    color: white;
+    color: var(--btn-color-secondary);
+    background-color: var(--btn-bg-secondary);
   }
+
   &--inline {
-    background-color: var(--btn-color-inline);
-    color: white;
+    color: var(--btn-color-inline);
+    background-color: var(--btn-bg-inline);
   }
 }
