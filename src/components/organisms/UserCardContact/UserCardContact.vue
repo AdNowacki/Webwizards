@@ -1,7 +1,7 @@
 <template>
   <div class="user-card-contact">
-    <div class="user-card-contact__col user-card-contact__col--xs">
-      AASSs
+    <div v-if="src" class="user-card-contact__col user-card-contact__col--xs">
+      <Avatar :src="src" />
     </div>
     <div class="user-card-contact__col">
       wsknakjnakjnxl
@@ -14,6 +14,7 @@
 
 <script setup>
 import Btn from '@/components/atoms/Btn/Btn.vue'
+import Avatar from '@/components/molecules/Avatar/Avatar.vue';
 
 defineProps({
   src: String,

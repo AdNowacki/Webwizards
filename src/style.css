@@ -2,7 +2,9 @@
   --max-width-page: 1280px;
   --border-radius-default: 8px;
   --border-radius-xs: 4px;
+  --border-radius-m: 12px;
   --gap-default: 20px;
+  --border-color-default: #fff;
 
   font-family: Roboto, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

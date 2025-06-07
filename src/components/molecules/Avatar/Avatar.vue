@@ -1,16 +1,13 @@
 <template>
-  <div @click="clickHandler" :class="componentClasses">{{ label }}</div>
+  <figure class="avatar">
+    <img :src="src" alt="Avatar" class="avatar__picture" />
+  </figure>
 </template>
 
 <script setup>
-import { computed } from 'vue'
 
 defineProps({
   src: String,
-});
-
-const componentClasses = computed(() => {
-  return ['avatar', props.variant ? `avatar--${props.variant}` : ''];
 });
 
 </script>

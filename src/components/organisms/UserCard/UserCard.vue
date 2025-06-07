@@ -1,6 +1,6 @@
 <template>
   <div class="user-card">
-    <UserCardContact />
+    <UserCardContact src="/public/avatar.jpg" />
     <div class="user-card__details">
       CCCC
     </div>
