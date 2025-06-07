@@ -1,0 +1,11 @@
+.user-card-contact {
+  --ucc-bg: #263b6d;
+
+  background-color: var(--ucc-bg);
+  border-radius: var(--border-radius-default);
+  gap: var(--gap-default);
+
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+}

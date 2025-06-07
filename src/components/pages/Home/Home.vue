@@ -1,13 +1,13 @@
 <template>
   <main :class="componentClasses">
-    <Btn variant="primary" label="Pierwszy button" />
+    <UserCard />
   </main>
 </template>
 
 <script setup>
 import { computed } from 'vue'
 
-import Btn from '@/components/atoms/Btn/Btn.vue'
+import UserCard from '@/components/organisms/UserCard/UserCard.vue'
 
 const componentClasses = computed(() => {
   return ['page', 'page--home'];

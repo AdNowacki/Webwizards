@@ -1,5 +1,8 @@
 :root {
-  --max-width-page: 1920px;
+  --max-width-page: 1280px;
+  --border-radius-default: 8px;
+  --gap-default: 20px;
+
   font-family: Roboto, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -59,13 +62,13 @@ button:focus-visible {
 }
 
 #app {
-  max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
 .page {
+  width: 100%;
   max-width: var(--max-width-page);
   margin: 0 auto;
 }
