@@ -8,4 +8,16 @@
   display: flex;
   justify-content: space-between;
   padding: 3rem;
+
+  &__col {
+    flex: 1 1 auto;
+
+    &--xs {
+      flex: 0 0 230px;
+    }
+
+    &--text-right {
+      text-align: right;
+    }
+  }
 }
