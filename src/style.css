@@ -5,6 +5,7 @@
   --border-radius-m: 12px;
   --gap-default: 20px;
   --border-color-default: #fff;
+  --link-color-default: #6ca9da;
 
   font-family: Roboto, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

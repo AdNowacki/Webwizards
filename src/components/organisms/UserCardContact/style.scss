@@ -1,13 +1,16 @@
 .user-card-contact {
   --ucc-bg: #263b6d;
+  --ucc-color: #ffffff;
 
   background-color: var(--ucc-bg);
+  color: var(--ucc-color);
   border-radius: var(--border-radius-default);
   gap: var(--gap-default);
 
   display: flex;
   justify-content: space-between;
   padding: 3rem;
+  box-shadow: 4px 12px 20px -7px rgba(66, 68, 90, 0.55);
 
   &__col {
     flex: 1 1 auto;
@@ -18,6 +21,25 @@
 
     &--text-right {
       text-align: right;
+    }
+  }
+
+  &__name {
+    font-size: 2.4rem;
+    margin: 0;;
+  }
+
+  &__contact-item {
+    margin-bottom: 2.5rem;
+    font-size: 1.6rem;
+  }
+
+  a {
+    color: var(--link-color-default);
+
+    &:hover {
+      color: var(--link-color-default);
+      text-decoration: underline;
     }
   }
 }

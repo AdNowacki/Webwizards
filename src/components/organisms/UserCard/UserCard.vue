@@ -1,6 +1,6 @@
 <template>
   <div class="user-card">
-    <UserCardContact src="/public/avatar.jpg" />
+    <UserCardContact />
     <div class="user-card__details">
       CCCC
     </div>
@@ -9,9 +9,6 @@
 
 <script setup>
 import UserCardContact from '@/components/organisms/UserCardContact/UserCardContact.vue';
-defineProps({
-  src: String,
-});
 </script>
 
 <style lang="scss" scoped>
