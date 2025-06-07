@@ -1,6 +1,7 @@
 :root {
   --max-width-page: 1280px;
   --border-radius-default: 8px;
+  --border-radius-xs: 4px;
   --gap-default: 20px;
 
   font-family: Roboto, system-ui, Avenir, Helvetica, Arial, sans-serif;
