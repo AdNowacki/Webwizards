@@ -6,7 +6,7 @@
     <div v-if="user" class="user-card-contact__col">
       <h2 class="user-card-contact__name" v-if="userName">{{ userName }}</h2>
       <p v-if="emailLink" class="user-card-contact__contact-item">Email: <a :href="emailLink">{{ user.email }}</a></p>
-      <p class="user-card-contact__contact-item">Phone</p>
+      <p v-if="user.phone" class="user-card-contact__contact-item"><Phone :phone="user.phone" /></p>
     </div>
     <div class="user-card-contact__col user-card-contact__col--xs user-card-contact__col--text-right">
       <Btn @click="emit('click')" variant="primary" label="Pobierz dane użytkownika" />
@@ -18,6 +18,7 @@
 import { computed } from 'vue';
 import Btn from '@/components/atoms/Btn/Btn.vue'
 import Avatar from '@/components/molecules/Avatar/Avatar.vue';
+import Phone from '@/components/atoms/Phone/Phone.vue';
 
 const props = defineProps({
   user: Object | null,

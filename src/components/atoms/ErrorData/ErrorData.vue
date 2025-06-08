@@ -4,7 +4,7 @@
 
 <script setup>
 const props = defineProps({
-  message: Object | null,
+  message: String
 });
 </script>
 
