@@ -1,7 +1,7 @@
 <template>
   <div class="user-card-contact">
     <div v-if="src" class="user-card-contact__col user-card-contact__col--xs">
-      <Avatar :src="src" />
+      <Avatar :src="src" class="user-card-contact__avatar" />
     </div>
     <div v-if="user" class="user-card-contact__col">
       <h2 class="user-card-contact__name" v-if="userName">{{ userName }}</h2>
