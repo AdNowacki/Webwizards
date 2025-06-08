@@ -23,6 +23,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -78,4 +82,5 @@ button:focus-visible {
   width: 100%;
   max-width: var(--max-width-page);
   margin: 0 auto;
+  padding: 0 1.5rem;
 }
