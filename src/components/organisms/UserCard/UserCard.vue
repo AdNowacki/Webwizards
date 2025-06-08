@@ -1,6 +1,6 @@
 <template>
   <div class="user-card">
-    <UserCardContact />
+    <UserCardContact @click="emit('click')" :user="user" />
     <div class="user-card__details">
       CCCC
     </div>
@@ -9,6 +9,12 @@
 
 <script setup>
 import UserCardContact from '@/components/organisms/UserCardContact/UserCardContact.vue';
+
+const props = defineProps({
+  user: Object | null,
+});
+
+const emit = defineEmits(['click']);
 </script>
 
 <style lang="scss" scoped>

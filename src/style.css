@@ -6,6 +6,7 @@
   --gap-default: 20px;
   --border-color-default: #fff;
   --link-color-default: #6ca9da;
+  --error-color: #e94848;
 
   font-family: Roboto, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
