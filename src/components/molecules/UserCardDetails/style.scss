@@ -1,10 +1,17 @@
 .user-card-details {
   --ucd-bg: #6ca9da;
-  --ucg-color: #1f1f1f;
+  --ucd-color: #1f1f1f;
+  --ucd-btn-color: #fff;
 
   background-color: var(--ucd-bg);
-  color: var(--ucg-color);
+  color: var(--ucd-color);
   border-radius: 0 0 var(--border-radius-default) var(--border-radius-default);
   box-shadow: var(--box-shadow-default);
   padding: 4.8rem 3rem 3rem;
+
+  &__btn {
+    color: var(--ucd-btn-color);
+    display: inline-block;
+    margin-top: 1.5rem;
+  }
 }
