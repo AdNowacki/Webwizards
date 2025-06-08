@@ -10,7 +10,7 @@
   display: flex;
   justify-content: space-between;
   padding: 3rem;
-  box-shadow: 4px 12px 20px -7px rgba(66, 68, 90, 0.55);
+  box-shadow: var(--box-shadow-default);
 
   &__col {
     flex: 1 1 auto;
@@ -31,7 +31,6 @@
 
   &__contact-item {
     margin-bottom: 2.5rem;
-    font-size: 1.6rem;
   }
 
   &__avatar {

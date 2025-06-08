@@ -1,0 +1,10 @@
+.user-card-details {
+  --ucd-bg: #6ca9da;
+  --ucg-color: #1f1f1f;
+
+  background-color: var(--ucd-bg);
+  color: var(--ucg-color);
+  border-radius: 0 0 var(--border-radius-default) var(--border-radius-default);
+  box-shadow: var(--box-shadow-default);
+  padding: 4.8rem 3rem 3rem;
+}

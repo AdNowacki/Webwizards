@@ -1,4 +1,10 @@
 .user-card {
   --uc-max-width: 1344px;
   margin: 0 auto;
+  font-size: 1.6rem;
+
+  &__details {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 }

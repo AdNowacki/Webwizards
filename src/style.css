@@ -8,6 +8,7 @@
   --border-color-default: #fff;
   --link-color-default: #6ca9da;
   --error-color: #e94848;
+  --box-shadow-default: 4px 12px 20px -7px rgba(66, 68, 90, 0.55);
 
   font-family: Roboto, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
