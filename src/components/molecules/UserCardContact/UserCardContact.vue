@@ -8,7 +8,7 @@
       <p v-if="emailLink" class="user-card-contact__contact-item">Email: <a :href="emailLink">{{ user.email }}</a></p>
       <p v-if="user.phone" class="user-card-contact__contact-item"><Phone :phone="user.phone" /></p>
     </div>
-    <div class="user-card-contact__col user-card-contact__col--xs user-card-contact__col--text-right">
+    <div class="user-card-contact__col user-card-contact__col--xxs user-card-contact__col--action">
       <Btn @click="emit('click')" variant="primary" label="Pobierz dane użytkownika" />
     </div>
   </div>
